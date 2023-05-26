@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindromo</title>
+</head>
+<body>
+    <label for="texto">Escribe algo:</label>
+    <input type="text" id="texto">
+    <button class="btn" onclick="palindromo()">Validar</button>
+    <p id="resultado"></p>
+
+  <script>
+    function palindromo(){
+        var input = document.getElementById('texto');
+        var pal = palabra.split('').reverse().join('');
+         if (cpalabra === pal) {
+                resultado = pal;
+            }else
+                resultado = "No es palíndromo"
+        }
+  </script>
+
+<!-- // Ejemplo de uso
+var palabra = "reconocer";
+console.log(esPalindromo(palabra)); // Devuelve true
+
+var frase = "Anita lava la tina";
+console.log(esPalindromo(frase)); // Devuelve true
+
+var noPalindromo = "Hola mundo";
+console.log(esPalindromo(noPalindromo)); // Devuelve false
+ -->
+
+
+</body>
+</html>
